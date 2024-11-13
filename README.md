@@ -17,20 +17,17 @@ Use your knowledge of object-oriented programming, one-dimensional (1D) arrays, 
 
 Include your User Story you analyzed for your project here. Your User Story should have the following format: 
 
-> As an [role], <br> 
-> I want to [goal], <br> 
-> so that I can [benefit]. 
+> As a hospital adminstrator or healthcare provider, <br> 
+> I want to efficiently track and manage patient data, including current department and health conditions, <br> 
+> so that I can ensure patients are placed in appropriate departments and their data is up-to-date for better healthcare management. 
 
 ## Dataset 
 
-Include a hyperlink to the source of your dataset used for this project. Additionally, provide a short description of each column used from the dataset, and the data type. 
+The project uses two primary data files to initialize patient and department data:
+- **patient_names.txt:** This file contains a list of 50 patient names, each on a new line. The data type is String. These names are loaded into an array in the PatientTracker program.
+- **departments_txt:** This file contains a list of hospital departments, including ER, ICU, General Ward, and Pediatrics. The data type is String. This data is used to assign each patient to a specific department initially.
 
-Example: 
-
-Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions 
-- **Country** (String) - name of the country 
-- **Population** (int) - number of people in the country 
-- **CO2Emissions** (double) - carbon dioxide emission in kilotons 
+Both files are read by the program to initalize data arrays, making it possible to manage patient assignments and movements.
 
 ## UML Diagram 
 
@@ -40,4 +37,4 @@ Put and image of your UML Diagram here. Upload the image of your UML Diagram to 
 
 ## Description 
 
-Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project.
+The **Patient Tracking System** is designed to help hospitals keep track of patient information by using a **1D Array** to store details like patient names and departments. Patient data is loaded from **text files**, with each **element** in the array holding a different patient's information. The program lets users **move** patients between departments and view all of their details. This project covers important coding concepts like working with arrays and reading from files, making it easier for healthcare staff to manage patient data in one place.
