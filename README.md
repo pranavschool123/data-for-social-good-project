@@ -31,9 +31,7 @@ Both files are read by the program to initalize data arrays, making it possible 
 
 ## UML Diagram 
 
-Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get display on this README. 
-
-![UML Diagram for my project](nameOfImageFileHere.png) 
+![alt text](<Data for Social Good UML Diagram.jpg>)
 
 ## Description 
 
